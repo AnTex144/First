@@ -1,1 +1,6 @@
-
+dekit:
+  - devod:
+    - gitrunner:
+      - stage1:
+        user: gitar
+        
