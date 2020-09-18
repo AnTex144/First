@@ -3,4 +3,4 @@ dekit:
     - gitrunner:
       - stage1:
         user: gitar
-        
+        home: /home/gitar
