@@ -4,3 +4,8 @@ dekit:
       - stage1:
         user: gitar
         home: /home/gitar
+    - mysql:
+      - dev:
+        autodoc
+        club
+      - stage1
