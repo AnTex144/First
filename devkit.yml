@@ -5,7 +5,6 @@ dekit:
         user: gitar
         home: /home/gitar
     - mysql:
-      - dev:
-        autodoc
-        club
-      - stage1
+      - club:
+        - dev: my-club-dev
+        - stage1: my-club-stage1
