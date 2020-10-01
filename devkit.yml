@@ -1,10 +1,12 @@
-dekit:
-  - devod:
-    - gitrunner:
-      - stage1:
-        user: gitar
-        home: /home/gitar
-    - mysql:
-      - club:
-        - dev: my-club-dev
-        - stage1: my-club-stage1
+gitlab:
+  - gitrunner:
+    - stage1:
+      - host:
+        - ahost1
+  - mysql8:
+      - innodb-cluster
+        - stage1: 
+          - name: corvet.db.local
+          - hosts:
+            - corvet1
+            - corvet2
