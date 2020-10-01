@@ -3,10 +3,14 @@ gitlab:
     - stage1:
       - host:
         - ahost1
-  - mysql8:
-      - innodb-cluster
+  - mysql:
+      - innodb_cluster:
         - stage1: 
           - name: corvet.db.local
           - hosts:
             - corvet1
             - corvet2
+      - standalon:
+        - stage1:
+          - name: mysql8.db.local
+          - host: worker8.dmz
