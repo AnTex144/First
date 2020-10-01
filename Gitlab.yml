@@ -4,7 +4,7 @@ gitlab:
       - host:
         - ahost1
   - mysql:
-      - innodb_cluster:
+      - innodb_cluster8:
         - stage1: 
           - name: corvet.db.local
           - hosts:
