@@ -14,3 +14,9 @@ gitlab:
         - stage1:
           - name: mysql8.db.local
           - host: worker8.dmz
+  - terraform:
+    - providers:
+    - dns:
+      - dmz:
+        - ns:
+          vanquish
